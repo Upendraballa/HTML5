@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		 .menu{
+
+                width:50%;
+                height:50px;
+                text-align:left;
+                border:1px solid black;
+            }
+	</style>
+</head>
+<body>
+	<form name="Form" >
+						<table class="menu">
+							<h3>FORM</h3>
+								<tr><th>Name:<input type="text" name="Name" placeholder="enter first name" maxlength="20"></th></tr>
+								<tr><th>Mobile No:<input type="text" name="Mobile" size=10></th></tr>
+								<tr><th>Email ID:<input type="text" name="email"></th></tr>
+								<tr><th>Password:<input type="Password" name="Password" maxlength="8"></th></tr>
+								<tr>
+									<th>Gender:<input type="radio" name="male">Male<input type="radio" name="female">female</th>
+							    </tr>
+							     <tr>
+								 <th>Courses joined:<input type="checkbox" name="php">PHP<input type="checkbox" name="java">JAVA</th>
+							    </tr>
+							    <tr><th>Upload Doubts:<input type="file" name="upload"></th></tr>
+							    <tr><th>Start Date:<input type="date" name="date" placeholder="MM/DD/YYYY">
+						          End Date:<input type="date" name="date" placeholder="MM/DD/YYYY"></th>
+						        </tr>
+						        <tr><th>Min Class Hours:<input type="number" name="number" max=2></th></tr>
+						         <tr>
+						         	<th>Location:
+						         		<select>
+									 <option value="null">--select--</option>
+									 <option value="Hyderabad">Hyderabad</option>
+									 <option value="Warangal">Warangal</option>
+									 <option value="Karimnagar">Karimnagar</option>
+								     </select>
+								    </th>
+							    </tr>
+							    <tr>
+							    	<th>Comments:
+							    	<textarea rows="5" cols="10"></textarea>
+							        </th>
+							    </tr>
+							    <tr>
+							    	<td><input type="button" value="SUBMIT">
+							    	<input type="button" value="RESET"></td>
+							    </tr>
+				        </table>
+				</form>										
+</body>
+</html>
